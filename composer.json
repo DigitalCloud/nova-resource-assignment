@@ -1,0 +1,40 @@
+{
+    "name": "digitalcloud/nova-resource-assignment",
+    "description": "A Laravel Nova Resource Assignment.",
+    "keywords": [
+        "Laravel",
+        "Nova",
+		"Resource",
+		"Assignment"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Motaz Marouf",
+            "email": "m.marouf@dce.sa",
+            "homepage": "https://dce.sa",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "digitalcloud/laravel-blameable": "^1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "DigitalCloud\\NovaResourceAssignment\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DigitalCloud\\NovaResourceAssignment\\ResourceAssignmentServiceProvider"
+            ]
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
